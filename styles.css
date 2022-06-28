@@ -1,0 +1,38 @@
+.heading {
+    font-family: 'Playfair Display',
+        serif;
+    font-weight: bold;
+    color: #9E788F;
+    letter-spacing: 2px;
+}
+
+.sub-head {
+    font-family: 'Chivo', sans-serif;
+    font-weight: lighter;
+}
+
+.container {
+    width: auto;
+    display: inline-block;
+}
+
+.container img {
+    width: 30%;
+    /* Will shrink image to 30% of its original width */
+    height: auto;
+}
+
+#about {
+    background-color: #EBDED7;
+}
+
+​#education {
+    background-color: #DDD0D8;
+}
+#home {
+    background-color: #F1E8E3;
+}
+
+#projects {
+    background-color: #EBDED7;
+}
