@@ -1,38 +1,91 @@
+/* Home Section */
 .heading {
     font-family: 'Playfair Display',
         serif;
     font-weight: bold;
     color: #9E788F;
     letter-spacing: 2px;
+    font-size: 53.5px;
+    margin-top: 200px;
 }
 
 .sub-head {
     font-family: 'Chivo', sans-serif;
     font-weight: lighter;
+    font-size: 20px;
+    margin-top: -30px;
+    text-align: center;
 }
 
 .container {
-    width: auto;
-    display: inline-block;
-}
+    /* width: auto; */
+    /* display: inline-block; */
+    /* float: left; */
+    overflow: auto; 
+    margin: 0px 10%; 
 
+}
 .container img {
-    width: 30%;
+    width: 60%;
+    float: left; 
     /* Will shrink image to 30% of its original width */
     height: auto;
+    /* float: left; */
+}
+
+
+#home {
+    background-color: #F1E8E3;
+    margin: 0;
+}
+
+/* Navigation Bar */
+body {
+    margin-top: 80px;
+    padding: 30px;
+}
+
+nav {
+    font-family: 'Playfair Display', serif;
+    font-weight: medium;
+    color: #9E788F;
+    font-size: 20px;
+}
+
+header {
+    background-color: #F1E8E3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+
+
+#projects {
+    background-color: #EBDED7;
 }
 
 #about {
     background-color: #EBDED7;
+    /* margin: 0; */
+}
+
+#about h1 {
+    color: #9CA57A; 
+    text-align: center;
 }
 
 ​#education {
     background-color: #DDD0D8;
-}
-#home {
-    background-color: #F1E8E3;
-}
-
-#projects {
-    background-color: #EBDED7;
 }
