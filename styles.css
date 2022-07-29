@@ -71,11 +71,6 @@ header li {
     margin: 20px;
 }
 
-
-#projects {
-    background-color: #EBDED7;
-}
-
 #about {
     background-color: #EBDED7;
     /* margin: 0; */
@@ -89,3 +84,15 @@ header li {
 ​#education {
     background-color: #DDD0D8;
 }
+
+
+/* PROJECTS SECTION */
+#projects {
+    background-color: #EBDED7;
+}
+
+#
+
+/* #gitlet {
+    background-color: #395D93;
+} */
