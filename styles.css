@@ -1,3 +1,12 @@
+section {
+    min-height: 100vw;
+}
+
+body {
+    margin-top: 80px;
+    padding: 0px;
+    background-color: #F1E8E3;
+}
 /* Home Section */
 .heading {
     font-family: 'Playfair Display',
@@ -40,10 +49,6 @@
 }
 
 /* Navigation Bar */
-body {
-    margin-top: 80px;
-    padding: 30px;
-}
 
 nav {
     font-family: 'Playfair Display', serif;
@@ -73,6 +78,8 @@ header li {
 
 #about {
     background-color: #EBDED7;
+    padding: 50px; 
+    min-height: 100vh;
     /* margin: 0; */
 }
 
