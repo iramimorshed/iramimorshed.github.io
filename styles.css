@@ -86,13 +86,105 @@ header li {
 }
 
 
-/* PROJECTS SECTION */
+/* ------------- PROJECTS SECTION -------------*/
 #projects {
     background-color: #EBDED7;
 }
 
-#
+.each-project {
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+}
 
-/* #gitlet {
+.each-project h2 {
+    font-family: 'Chivo', sans-serif;
+    font-style: italic;
+}
+
+.each-project p {
+    font-family: 'Chivo', sans-serif; 
+}
+.each-project img {
+    width: 150px; 
+    height: 150px;
+}
+/* Row One */
+#loa {
+    background-color: #9EBC9E;
+    border: solid #849984 8px;
+}
+
+#enigma {
+    background-color: #4B6858;
+    border: solid #35493E 8px;
+}
+
+#gitlet {
     background-color: #395D93;
-} */
+    border: solid #121E30 8px;
+}
+
+/* Row Two */
+#philphix {
+    background-color: #A4508B;
+    border: solid #A72A82 8px;
+}
+
+#matrix {
+    background-color: #B37196;
+    border: solid #B1548C 8px;
+}
+
+#cpu {
+    background-color: #C191A1;
+    border: solid #B4637E 8px;
+}
+
+
+/* Row Three */
+#speed-up {
+    background-color: #395D93;
+    border: solid #121E30 8px;
+}
+
+#satellite {
+    background-color: #4B6858;
+    border: solid #35493E 8px;
+}
+
+#file-share {
+    background-color: #9EBC9E;
+    border: solid #849984 8px;
+}
+
+/* Row Four */
+#hack-web {
+    background-color: #C191A1;
+    border: solid #B4637E 8px;
+}
+
+#traffic {
+    background-color: #B37196;
+    border: solid #B1548C 8px;
+}
+#ants-bees {
+    background-color: #A4508B;
+    border: solid #A72A82 8px;
+}
+
+/* Row Five */
+#cats {
+    background-color: #9EBC9E;
+    border: solid #849984 8px;
+}
+
+#humap {
+    background-color: #4B6858;
+    border: solid #35493E 8px;
+}
+
+#personal-web {
+    background-color: #395D93;
+    border: solid #121E30 8px;
+}
