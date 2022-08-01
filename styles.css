@@ -402,7 +402,7 @@ ul {
 
 .each-project:hover .proj-description {
     visibility: visible;
-    opacity: 0.9;
+    opacity: 0.92;
 }
 
 .proj-description:hover {
@@ -422,6 +422,16 @@ ul {
 
 .each-project p {
     font-family: 'Chivo', sans-serif; 
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: normal;
+}
+
+
+.each-project i {
+    font-family: 'Chivo', sans-serif;
+    font-size: smaller;
+    font-weight: lighter;
 }
 .each-project img {
     width: 150px; 
