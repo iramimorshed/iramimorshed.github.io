@@ -495,14 +495,26 @@ ul {
     border: solid #121E30 8px;
 }
 
+#speed-up p {
+    font-size: smaller; 
+}
+
 #satellite {
     background-color: #4B6858;
     border: solid #35493E 8px;
 }
 
+#satellite p, a {
+    font-size: smaller;
+}
+
 #file-share {
     background-color: #9EBC9E;
     border: solid #849984 8px;
+}
+
+#file-share p, a {
+    font-size: smaller;
 }
 
 /* Row Four */
