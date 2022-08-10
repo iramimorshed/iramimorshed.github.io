@@ -358,6 +358,23 @@ ul {
     padding-top: 10%;
 }
 
+#disc {
+    align-items: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    font-family: 'Chivo', sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    text-align: center;
+    margin-top: -1%;
+    margin-bottom: 3%;
+}
+
+
+#disc p {
+
+}
+
 .each-project {
     margin-bottom: 20px;
     width: 250px;
@@ -368,7 +385,7 @@ ul {
     margin-right: 5px; */
 }
 
-.each-project h2, a {
+.each-project h2, a{
     font-family: 'Chivo', sans-serif;
     font-style: italic;
     /* position: absolute; */
@@ -378,7 +395,6 @@ ul {
     color: black;
     
 }
-
 
 .proj-description {
     position: absolute;
@@ -523,6 +539,10 @@ ul {
     border: solid #B4637E 8px;
 }
 
+#hack-web h2 > a{
+    font-size: large;
+}
+
 #traffic {
     background-color: #B37196;
     border: solid #B1548C 8px;
@@ -532,10 +552,19 @@ ul {
     font-size: smaller;
 }
 
+#traffic h2 {
+    font-size: smaller;
+}
+
 #ants-bees {
     background-color: #A4508B;
     border: solid #A72A82 8px;
 }
+
+#ants-bees h2 > a {
+    font-size: large;
+}
+
 
 /* Row Five */
 #cats {
@@ -543,12 +572,24 @@ ul {
     border: solid #849984 8px;
 }
 
+#cats h2 > a {
+    font-size: large;
+}
+
 #humap {
     background-color: #4B6858;
     border: solid #35493E 8px;
 }
 
+#humap h2 > a {
+    font-size: large;
+}
+
 #personal-web {
     background-color: #395D93;
     border: solid #121E30 8px;
+}
+
+#personal-web h2 > a {
+    font-size: large; 
 }
