@@ -527,6 +527,11 @@ ul {
     background-color: #B37196;
     border: solid #B1548C 8px;
 }
+
+#traffic p {
+    font-size: smaller;
+}
+
 #ants-bees {
     background-color: #A4508B;
     border: solid #A72A82 8px;
