@@ -39,7 +39,7 @@ section {
     color: #9E788F;
     letter-spacing: 2px;
     font-size: 53.5px;
-    margin-top: 200px;
+    /* margin-top: 200px; */
 }
 
 .sub-head {
@@ -50,6 +50,10 @@ section {
     text-align: center;
 }
 
+.row {
+     flex-direction: row;
+ }
+
 .container {
     /* width: auto; */
     /* display: inline-block; */
@@ -58,13 +62,16 @@ section {
     margin: 0px 10%; 
 
 }
-.container img {
-    width: 60%;
+
+.collage-container img {
+    width: 50%;
     float: left; 
     /* Will shrink image to 30% of its original width */
     height: auto;
     /* float: left; */
 }
+
+
 
 
 #home {
