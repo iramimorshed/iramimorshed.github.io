@@ -268,36 +268,67 @@
         </div>
         <!-- ROW ONE -->
         <div class="container row">
-            <div class="each-project java" id="loa">
-                <img class="proj-img" src="assets/loa.png" />
+            <div class="each-project c" id="speed-up">
+                <img class="proj-img" src="assets/speed-up.png" />
                 <div class="proj-description container column">
                     <div class="img-description">
-                        <h2>Lines of Action</h2>
-                        <p>Recreated Claude Soucie's checkerboard game with <b>GUI and AI player</b>. <br><br> Program utilizes <b>game trees</b> and <b>alpha-beta pruning </b>to select optimal move for AI player. </p>
-                        <i>Java</i>
+                        <h2>
+                            <a target="_blank" href="https://inst.eecs.berkeley.edu/~cs61c/sp21/projects/proj4/">
+                                Vector Operations
+                            </a>
+                        </h2>
+                        <p>
+                            Implemented version of <b>numpy module, numc</b>.
+                            <br><br>
+                            Completed naive solution for matrix functions in C, then sped up numc.Matrix
+                            operations using <b>OpenMP (parallelizes computation)</b> and <b>unrolling</b>.
+                        </p>
+                        <i>C</i>
                     </div>
                 </div>
             </div>
             
-            <div class="each-project java" id="enigma">
-                <img class="proj-img" src="assets/enigma.png" />
+            <div class="each-project c" id="satellite">
+                <img class="proj-img" src="assets/satellite.png" />
                 <div class="proj-description container column">
                     <div class="img-description">
-                        <h2>The Enigma</h2>
-                        <p>Programmed WWII German encryption machine, which <b>parses</b> configuration file and <b>encrypts</b> input text based on specified
-                        <b>permuations</b> to encode/decode messages.</p>
-                        <i>Java</i>
+                        <h2>
+                            <a target="_blank" href="https://sp22.cs161.org/proj1/">
+                                Hack Into Satellite
+                            </a>
+                        </h2>
+                        <p>
+                            <b>Exploited</b> series of <b>vulnerable</b> programs on <b>virtual machine</b>.
+                            <br><br>
+                            <b>Exploits</b> include overwriting input, signed/unsigned number, <b>stack canary</b>, off-by-one, time
+                            of check to time of use <b>(TOCTTOU)</b>, printf, and <b>ret2espm attack</b>.
+            
+                            <br><br>
+                            Link to write-up <a target="_blank"
+                                href="https://drive.google.com/file/d/14hzXTuk1dDyiC3yx2X4CIdUa1Fa5hJYE/view?usp=sharing">here</a>
+                        </p>
+                        <i>C</i>
                     </div>
                 </div>
             </div>
-
-            <div class="each-project java" id="gitlet">
-                <img class="proj-img" src="assets/gitlet.png" />
+            
+            <div class="each-project go" id="file-share">
+                <img class="proj-img" src="assets/file-share.png" />
                 <div class="proj-description container column">
                     <div class="img-description">
-                        <h2>Gitlet</h2>
-                        <p>Recreated a version-control system featuring <b>SHA-1 hashcodes </b>and <b>serialization</b>. Supports <b>Git</b> commands such as add, merge, remove,  commit, checkout, etc. </p>
-                        <i>Java</i>
+                        <h2>
+                            <a target="_blank" href="https://su22.cs161.org/proj2/">
+                                Encrypted File-Sharing System
+                            </a>
+                        </h2>
+                        <p>
+                            Implemented client application for secure file sharing, like <b>Dropbox</b>. Users can <b>save/load
+                                files</b> to server, overwrite/append to saved files, share files, <b>revoke access</b>.
+                            <br><br>
+                            Encrypted data with <b>symmetric/asymmetric encryption schemes</b>. Link to write-up <a target="_blank"
+                                href="https://docs.google.com/document/d/164FNBGNhLdd1KkGBBqdvYqgJNV8lsaYGlqQIb01gNfw/edit?usp=sharing">here</a>
+                        </p>
+                        <i>Golang</i>
                     </div>
                 </div>
             </div>
@@ -366,64 +397,40 @@
 
             <!-- ROW THREE  -->
         <div class="container row">
-
-            <div class="each-project c" id="speed-up">
-                <img class="proj-img" src="assets/speed-up.png" />
+            <div class="each-project java" id="loa">
+                <img class="proj-img" src="assets/loa.png" />
                 <div class="proj-description container column">
                     <div class="img-description">
-                        <h2>
-                            <a target="_blank" href="https://inst.eecs.berkeley.edu/~cs61c/sp21/projects/proj4/">
-                                Vector Operations
-                            </a>
-                        </h2>
-                        <p>
-                            Implemented version of <b>numpy module, numc</b>. 
-                            <br><br>
-                            Completed naive solution for matrix functions in C, then sped up numc.Matrix
-                            operations using <b>OpenMP (parallelizes computation)</b> and <b>unrolling</b>.
-                        </p>
-                        <i>C</i>
+                        <h2>Lines of Action</h2>
+                        <p>Recreated Claude Soucie's checkerboard game with <b>GUI and AI player</b>. <br><br> Program utilizes
+                            <b>game trees</b> and <b>alpha-beta pruning </b>to select optimal move for AI player. </p>
+                        <i>Java</i>
                     </div>
                 </div>
             </div>
-
-            <div class="each-project c" id="satellite">
-                <img class="proj-img" src="assets/satellite.png" />
+            
+            <div class="each-project java" id="enigma">
+                <img class="proj-img" src="assets/enigma.png" />
                 <div class="proj-description container column">
                     <div class="img-description">
-                        <h2>
-                            <a target="_blank" href="https://sp22.cs161.org/proj1/">
-                                Hack Into Satellite
-                            </a>
-                        </h2>
-                        <p>
-                            <b>Exploited</b> series of <b>vulnerable</b> programs on <b>virtual machine</b>. 
-                            <br><br>
-                            <b>Exploits</b> include overwriting input, signed/unsigned number, <b>stack canary</b>, off-by-one, time of check to time of use <b>(TOCTTOU)</b>, printf, and <b>ret2espm attack</b>. 
-                            
-                            <br><br>
-                            Link to write-up <a target="_blank" href="https://drive.google.com/file/d/14hzXTuk1dDyiC3yx2X4CIdUa1Fa5hJYE/view?usp=sharing">here</a>
+                        <h2>The Enigma</h2>
+                        <p>Programmed WWII German encryption machine, which <b>parses</b> configuration file and <b>encrypts</b>
+                            input text based on specified
+                            <b>permuations</b> to encode/decode messages.
                         </p>
-                        <i>C</i>
+                        <i>Java</i>
                     </div>
                 </div>
             </div>
-
-            <div class="each-project go" id="file-share">
-                <img class="proj-img" src="assets/file-share.png" />
+            
+            <div class="each-project java" id="gitlet">
+                <img class="proj-img" src="assets/gitlet.png" />
                 <div class="proj-description container column">
                     <div class="img-description">
-                        <h2>
-                            <a target="_blank" href="https://su22.cs161.org/proj2/">
-                                Encrypted File-Sharing System
-                            </a>
-                        </h2>
-                        <p>
-                            Implemented client application for secure file sharing, like <b>Dropbox</b>. Users can <b>save/load files</b> to server, overwrite/append to saved files, share files, <b>revoke access</b>. 
-                            <br><br>
-                            Encrypted data with <b>symmetric/asymmetric encryption schemes</b>. Link to write-up <a target="_blank" href="https://docs.google.com/document/d/164FNBGNhLdd1KkGBBqdvYqgJNV8lsaYGlqQIb01gNfw/edit?usp=sharing">here</a>
-                        </p>
-                        <i>Golang</i>
+                        <h2>Gitlet</h2>
+                        <p>Recreated a version-control system featuring <b>SHA-1 hashcodes </b>and <b>serialization</b>. Supports
+                            <b>Git</b> commands such as add, merge, remove, commit, checkout, etc. </p>
+                        <i>Java</i>
                     </div>
                 </div>
             </div>
