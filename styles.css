@@ -6,11 +6,11 @@ body {
 
 section {
     /* min-height: 100vw; */
-    background-color: #DDD0D8;
+    /* background-color: #DDD0D8; */
     /* margin-left: auto;
     margin-right: auto; */
-    margin-bottom: -10%;
-    margin-top: 0;
+    /* margin-bottom: -10%;
+    margin-top: 0; */
 }
 
 /* Scrollbar */
@@ -64,7 +64,7 @@ section {
 }
 
 #collage {
-    width: 50%;
+    width: 58%;
     /* float: left;  */
     /* Will shrink image to 30% of its original width */
     height: auto;
@@ -74,18 +74,21 @@ section {
 
 #home {
     background-color: #F1E8E3;
-    margin: 0;
+    height: 100vh;
 }
 
+
+/* Navigation Bar */
 #nav {
-    background-color: #333;
+    background-color: #F1E8E3;
     position: fixed;
     top: -70px;
     width: 100%;
-    transition: top 0.3s;
-    left: 0%; 
+    transition: top 0.4s;
+    left: 0%;
     right: 0%;
     z-index: 1;
+    box-shadow: 1px 1px 5px #9E788F;
 }
 
 #nav a {
@@ -95,6 +98,13 @@ section {
     text-align: center;
     padding: 15px;
     text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    color: #9E788F;
+    letter-spacing: 2px;
+    font-style: normal;
+    font-size: 20px;
+    padding: 1%;
 }
 
 #nav a:hover {
@@ -103,14 +113,91 @@ section {
 }
 
 .right {
-    float: right; 
+    float: right;
 }
 
 .left {
     float: left;
 }
 
-/* Navigation Bar */
+/* Arrow */
+.arrows {
+    width: 60px;
+    height: 72px;
+    position: absolute;
+    left: 50%;
+    margin-left: -30px;
+    bottom: 80px;
+
+}
+
+.arrows path {
+    stroke: #9E788F;
+    fill: transparent;
+    stroke-width: 1px;
+    animation: arrow 2s infinite;
+    -webkit-animation: arrow 2s infinite;
+}
+
+@keyframes arrow {
+    0% {
+        opacity: 0
+    }
+
+    40% {
+        opacity: 1
+    }
+
+    80% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+@-webkit-keyframes arrow
+
+/*Safari and Chrome*/
+    {
+    0% {
+        opacity: 0
+    }
+
+    40% {
+        opacity: 1
+    }
+
+    80% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+.arrows path.a1 {
+    animation-delay: -1s;
+    -webkit-animation-delay: -1s;
+    /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+    animation-delay: -0.5s;
+    -webkit-animation-delay: -0.5s;
+    /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {
+    animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+    /* Safari 和 Chrome */
+}
+
+
+
 
 /* nav {
     font-family: 'Playfair Display', serif;
