@@ -65,7 +65,7 @@ section {
 
 #collage {
     width: 58%;
-    /* float: left;  */
+    float: left; 
     /* Will shrink image to 30% of its original width */
     height: auto;
     /* float: left; */
