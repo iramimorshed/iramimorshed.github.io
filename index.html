@@ -148,22 +148,23 @@
     <!--Education Page-->
     <section id="education">
         <div class="edu-container">
-            <div class ="img-gallery">
+            <!-- <div class ="img-gallery">
                 <img src="assets/img/berk_two.jpeg" alt="waterfall near sather gate">
                 <img src="assets/img/berk_five.jpeg" alt="waterfall near valley life sciences building">
                 <img src="assets/img/berk_six.jpeg" alt="">
-            </div>
+            </div> -->
 
             <div class="course-container">
                 <h1 class="heading">EDUCATION</h1>
                 <div class="school-info">
                     <h4>University of California, Berkeley</h4>
                     <h5>Bachelor of Arts in Computer Science, Double Minor in Data Science, Political Economy</h5>
-                    <h5>Expected Graduation: May 2023</h6>
+                    <h5>Graduation Date: May 2023</h6>
                 </div>
                 <h2 class="heading">COURSEWORK</h2>
-                <div class="course-topic">
-                    <h4>Computer Science</h4>
+                <button onclick="myFunction()">Computer Science</button>
+                <div id="myDIV" class="course-topic">
+                    <!-- <h4>Computer Science</h4> -->
                     <ul>
                         <li>[CS 61A] Structure and Interpretation of Computer Programs</li>
                         <li>[CS 61B] Data Structures</li>
@@ -171,46 +172,50 @@
                         <li>[CS 70] Discrete Mathematics and Probability Theory</li>
                         <li>[CS 170] Efficient Algorithms and Intractable Problems</li>
                         <li>[CS 161] Computer Security</li>
-                        <li>[CS 188] Introduction to Artifical Intelligence*</li>
+                        <li>[CS 188] Introduction to Artifical Intelligence</li>
+                        <li>[CS 186] Introduction to Database Systems</li>
                     </ul>
                 </div>
-                <div class="course-topic">
-                    <h4>Data Science</h4>
+                <button onclick="myFunction2()">Data Science</button>
+                <div id="myDIV2" class="course-topic">
+                    <!-- <h4>Data Science</h4> -->
                     <ul>
                         <li>[Data 8] Foundations of Data Science</li>
                         <li>[Data 100] Principles and Techniques of Data Science</li>
                         <li>[Math 54] Linear Algebra and Differential Equations</li>
                         <li>[Data 140] Probability for Data Science</li>
-                        <li>[Data 144] Data Mining*</li>
-                        <li>[IEOR 142] Introduction to Machine Learning and Analytics*</li>
+                        <li>[Data 144] Data Mining</li>
+                        <li>[IEOR 142] Introduction to Machine Learning and Analytics</li>
                     </ul>
                 </div>
             
-                <div class="course-topic">
-                    <h4>Environment, Resource Management, and Society</h4>
+                <button onclick="myFunction3()">Environment and Resource Management</button>
+                <div id="myDIV3" class="course-topic">
+                    <!-- <h4>Environment, Resource Management, and Society</h4> -->
                     <ul>
                         <li>[ESPM 50AC] Introduction to Culture and Natural Resource Management</li>
                         <li>[ESPM 155AC] Sociology and Political Ecology of Agro-Food Systems</li>
+                        <li>[ESPM C167] Environmental Health and Development</li>
                     </ul>
                 </div>
             
-                <div class="course-topic" id="last-topic">
-                    <h4>Political Economy</h4>
+                <button onclick="myFunction4()">Political Economy</button>
+                <div id="myDIV4" class="course-topic" id="last-topic">
                     <ul>
                         <li>[POLECON 100] Classic Theories of Political Economy</li>
                         <li>[POLECON 101] Contemporary Theories of Political Economy</li>
                         <li>[SOC 180I] Comparative Inequality</li>
                         <li>[SOC 124] Sociology of Poverty</li>
+                        <li>[GPP 115] Global Poverty: Challenges and Hopes</li>
                     </ul>
-                    <h5 style="font-size: 16px;font-weight: lighter;">*In progress</h5>
                 </div>
 
             </div>
-            <div class="img-gallery">
+            <!-- <div class="img-gallery">
                 <img src="assets/img/berk_ten.jpeg" alt="sunset from lawrence hall of sciences">
                 <img src="assets/img/berk_eleven.jpeg" alt="sunset from foothill dorms">
                 <img src="assets/img/berk_eight.jpeg" alt="">
-            </div>
+            </div> -->
         </div>
 
     </section>
@@ -509,6 +514,19 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section class="container column" id="footer">
+        <div class="container row" id="social-container">
+            <a href="https://www.linkedin.com/in/irammorshed/" target="_blank">LinkedIn</a>
+            <span>•</span>
+            <a href="https://github.com/iramimorshed" target="_blank">Github</a>
+            <span>•</span>
+            <a href="mailto:iram.morshed@berkeley.edu" target="_blank">Email</a>
+        </div>
+        <div>
+            <p id="copyright">Coded by Iram</p>
         </div>
     </section>
 </body>

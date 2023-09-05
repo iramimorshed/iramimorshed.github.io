@@ -362,6 +362,17 @@ ul {
     font-style: italic;
 }
 
+#education button {
+    color: #354C61;
+    font-family: Chivo, sans-serif;
+    font-style: italic; 
+    font-size: 16px;
+}
+
+#education button:hover {
+    opacity: 80%;
+}
+
 #education ul, h4, h5 {
     font-family: Chivo, sans-serif;
     font-weight: lighter;
@@ -401,13 +412,13 @@ ul {
     justify-content: center;
 }
 
-.img-gallery img {
+/* .img-gallery img {
     width: 250px; 
     height: 300px;
     margin-bottom: 20px;
     border-radius: 4px;
     border: solid #354C61 2px; 
-}
+} */
 
 .edu-container {
     display: flex; 
