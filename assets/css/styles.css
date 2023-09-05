@@ -366,12 +366,24 @@ ul {
     color: #354C61;
     font-family: Chivo, sans-serif;
     font-style: italic; 
-    font-size: 16px;
+    font-size: 12;
+    padding: 10px 12px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 4px;
+    transition: 0.3s;
 }
 
 #education button:hover {
-    opacity: 80%;
+    background-color: #ddd;
 }
+
+#education button.active {
+    background-color: #61759f;
+    color: white;
+}
+
 
 #education ul, h4, h5 {
     font-family: Chivo, sans-serif;
