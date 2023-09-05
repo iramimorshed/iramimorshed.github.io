@@ -418,11 +418,15 @@ ul {
     margin-bottom: 2px;
 }
 
-.img-gallery {
+#myDIV, #myDIV2, #myDIV3, #myDIV4 { 
+    display: none
+}
+
+/* .img-gallery {
     display: flex; 
     flex-direction: column;
     justify-content: center;
-}
+} */
 
 /* .img-gallery img {
     width: 250px; 
